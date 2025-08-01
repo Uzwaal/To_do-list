@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body{
+   background: linear-gradient(#bdc3c7, #2c3e50);
+   min-height: 100vh;
+   display: flex;
+   justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 70%;
+    max-width: 450px;
+}
+
+input{
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+}
+
+input[type=text]{
+    font-size: 18px;
+    padding: 9px;
+}
+
+input[type=button]{
+    background: linear-gradient(#808080,#3fada8);
+    font-size: 18px;
+    margin: 7px;
+    padding: 9px;
+    cursor: pointer;
+   
+}
+
+input[type=button]:hover{ 
+    background: #109c28;
+}
+
+.todolist{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px;
+}
+
+ul{
+    width: 100%;
+    max-width: 100%;
+}
+
+ ul li{
+    list-style-type: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 4px 9px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+
+
